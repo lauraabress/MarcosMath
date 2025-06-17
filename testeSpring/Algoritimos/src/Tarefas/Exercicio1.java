@@ -6,7 +6,7 @@ public class Exercicio1 {
     public static void main(String[] args) {
         String[] cores = new String[5];
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < cores.length; i++) {
             cores[i] = lerMsg("Qual a "+(i+1)+ " selecionada :");
         }
 
@@ -16,7 +16,7 @@ public class Exercicio1 {
 
     private static String mostrarInverso(String[] cores) {
         String msg ="";
-        for (int i = 4; i >= 0;i--){
+        for (int i = cores.length - 1; i >= 0;i--){
             msg += cores[i]+" - ";
         }
         return msg;
