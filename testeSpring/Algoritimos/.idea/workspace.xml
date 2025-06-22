@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e1ac8db-cb30-4793-a7aa-aac2714a41c4" name="Changes" comment="Deletei o out de algoritimos" />
+    <list default="true" id="8f341e54-e112-45d2-b808-df6b98e04a17" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matematica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matematica/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +28,13 @@
     &quot;accountId&quot;: &quot;42c57308-9dda-43dc-af16-5bb451088d4b&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2yrf6N7VBbNrVA8ClsV6WmuL6Jf" />
+  <component name="ProjectId" id="2yrnRXOzlduOYaBrQDwrniF5XyM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,31 +43,23 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marco/Downloads/INTELIJ/TesteSpringBoot/matematica/testeSpring/Algoritimos/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e1ac8db-cb30-4793-a7aa-aac2714a41c4" name="Changes" comment="" />
-      <created>1750597436113</created>
+      <changelist id="8f341e54-e112-45d2-b808-df6b98e04a17" name="Changes" comment="" />
+      <created>1750601551723</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1750597436113</updated>
+      <updated>1750601551723</updated>
     </task>
-    <task id="LOCAL-00001" summary="Deletei o out de algoritimos">
-      <option name="closed" value="true" />
-      <created>1750600919092</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1750600919092</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Deletei o out de algoritimos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deletei o out de algoritimos" />
   </component>
 </project>
