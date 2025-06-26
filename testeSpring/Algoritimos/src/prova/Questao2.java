@@ -14,9 +14,9 @@ public class Questao2 {
     static double calcComicao(int totalVendas, double salario) {
 
         if (totalVendas > 20000) {
-            return salario * 1.20;
+            return salario * 1.50;
         } else {
-            return salario * 1.10;
+            return salario * 1.80;
         }
 
     }
