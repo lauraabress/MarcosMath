@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/testeSpring/Algoritimos/Algoritimos.iml" filepath="$PROJECT_DIR$/testeSpring/Algoritimos/Algoritimos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testeSpring/Matematica/Matematica.iml" filepath="$PROJECT_DIR$/testeSpring/Matematica/Matematica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/matematica.iml" filepath="$PROJECT_DIR$/.idea/matematica.iml" />
+    </modules>
+  </component>
+</project>
