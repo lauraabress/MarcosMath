@@ -2,17 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05cabf4-891a-43fd-994b-dd85d37e81e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Algoritimos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Matematica/Matematica.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trier/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trier/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MarcosPaulo-web"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MarcosPaulo-web/matematica.git",
+    "accountId": "c5ba9648-7172-4a84-bf72-fab3563d3702"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2zHUy0QDc9DV2Bnh5xnuFinmbrY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +37,8 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/marcos_p_medeiros/IdeaProjects/matematica/testeSpring/Algoritimos"
   }
 }]]></component>
