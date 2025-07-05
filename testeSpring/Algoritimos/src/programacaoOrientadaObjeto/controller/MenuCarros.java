@@ -12,7 +12,7 @@ public class MenuCarros {
         int op;
         cadastrarCarrosDeTeste();
         do {
-            op = getInt("1- Cadastrar Carros\n2- Listar por periodo de fabricação\n3- Listar carro por marca4- Lista de carro por cor\n5- Sair");
+            op = getInt("\n1- Cadastrar Carros\n2- Listar por periodo de fabricação\n3- Listar carro por marca\n4- Lista de carro por cor\n5- Sair");
 
             switch (op) {
                 case 1:
@@ -21,11 +21,42 @@ public class MenuCarros {
                 case 2:
                     listarPorFabricação();
                     break;
+                case 3:
+                    listarPorMarca();
+                    break;
+                case 4:
+                    listarPorCor();
+                    break;
             }
 
-        } while (op != 3);
+        } while (op != 5);
 
 
+    }
+
+    private static void listarPorCor() {
+        String cor = getString("Qual a cor : ").trim();
+        ArrayList<Carro> carroCor = new ArrayList<Carro>();
+
+        for (Carro car : carros) {
+            if (car.cor.equalsIgnoreCase(cor)) {
+                carroCor.add(car);
+            }
+        }
+        mostrarDados(carroCor);
+        exibirMsg("Porcemtual :"+porcentual(carros.size(),carroCor.size()));
+    }
+
+    private static void listarPorMarca() {
+        String marca = getString("Qual a marca do carro :").trim();
+        ArrayList<Carro> carroMarca = new ArrayList<Carro>();
+        for (Carro car : carros) {
+            if (car.marca.equalsIgnoreCase(marca)) {
+                carroMarca.add(car);
+            }
+        }
+        mostrarDados(carroMarca);
+        exibirMsg("porcentual :"+porcentual(carros.size(),carroMarca.size()));
     }
 
     public static void listarPorFabricação() {
@@ -40,23 +71,30 @@ public class MenuCarros {
         }
 
         mostrarDados(carrosFabricacao);
+        exibirMsg("Porcemtagem : "+porcentual(carros.size(),carrosFabricacao.size()));
     }
 
 
     private static void mostrarDados(ArrayList<Carro> listCarros) {
-
+        if (listCarros.isEmpty()) {
+            System.out.println("\nNão localizamos o veiculo ");
+        }
         for (Carro cars : listCarros) {
-            exibirMsg("\nAno : " + cars.ano + "\nMarca : " + cars.marca + "\nCor : " + cars.cor);
+            exibirMsg("\nAno : " + cars.ano + "\nMarca : " + cars.marca + "\nCor : " + cars.cor + "\n");
         }
 
     }
 
     private static void cadastrarCarro() {
         Carro car = new Carro();
-        car.marca = getString("Qual a marca do carro :");
+        car.marca = getString("Qual a marca do carro :").trim();
         car.ano = getInt("Qual o ano do carro : ");
-        car.cor = getString("Qual a cor do carro");
-        carros.add(car);
+        car.cor = getString("Qual a cor do carro").trim();
+        if (car.marca.trim().equals("") || car.cor.trim().equals("") || car.ano < 1886) {
+            exibirMsg("Verifique suas informações");
+        } else {
+            carros.add(car);
+        }
     }
 
     static Scanner scan = new Scanner(System.in);
@@ -78,6 +116,10 @@ public class MenuCarros {
     public static String getString(String msg) {
         System.out.println(msg);
         return scan.nextLine();
+    }
+
+    static double porcentual(int valTotal, int val){
+        return ((double) val/valTotal)*100;
     }
 
     public static void cadastrarCarrosDeTeste() {

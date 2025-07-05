@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05cabf4-891a-43fd-994b-dd85d37e81e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/controller/CadastroTimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/controller/MenuCarros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/model/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/model/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c05cabf4-891a-43fd-994b-dd85d37e81e2" name="Changes" comment="poo e outras coisas">
+      <change afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/controller/MenuCompras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/model/ListaCompras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trier/src/primeiraAula/Atividade1/Numero4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Trier/src/primeiraAula/Atividade1/Numero4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/controller/MenuCarros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/controller/MenuCarros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/model/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/model/Carro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
   "keyToString": {
     "Application.CadastroTimes.executor": "Run",
     "Application.MenuCarros.executor": "Run",
+    "Application.MenuCompras.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -69,6 +68,19 @@
       <option name="presentableId" value="Default" />
       <updated>1751387742174</updated>
     </task>
+    <task id="LOCAL-00001" summary="poo e outras coisas">
+      <option name="closed" value="true" />
+      <created>1751504371032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751504371032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="poo e outras coisas" />
+    <option name="LAST_COMMIT_MESSAGE" value="poo e outras coisas" />
   </component>
 </project>
